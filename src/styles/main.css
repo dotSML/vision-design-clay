@@ -1,0 +1,90 @@
+.app-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #99b898;
+    font-size: 24px;
+}
+
+.boardContainer {
+    border: 5px solid #99b898;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+    background-color: #445055;
+
+}
+
+.colclassNames {
+    padding: .75rem;
+    padding-top: .75rem;
+    color: white;
+    position: relative;
+}
+.colclassNames span,
+.colclassNames h2
+ {
+    background-color: #2A363B;
+
+}
+.colclassNames > * {
+    padding: 20px;
+}
+
+.nameList {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-left: 8px;
+}
+.boardContainer {
+    text-align: center ;
+}
+
+.header {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonContainer {
+    margin-top: 24px;
+}
+
+.portrait {
+    border-radius: 50%;
+    position: relative;
+    width: 100%;
+}
+.crown {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: 82px;
+    top: 70px;
+}
+
+.tooltipContainer {
+    position: absolute;
+    top: 290px;
+    left: 10px;
+    width: 200px;
+}
+
+.label {
+    font-size: 40px !important;
+}
+
+.Left-top-container {
+    margin-top: 0;
+    padding-top: 0;
+}
+.Left-top-container > .colclassNames {
+    margin-top: 0;
+    padding-top: 0;
+}
